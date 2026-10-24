@@ -1,0 +1,56 @@
+{
+  "patients": [
+    {
+      "id": "PAT-101",
+      "name": "Ramesh Kumar",
+      "email": "Rameshk@gmail.com",
+      "phone": "555-0192",
+      "gender": "Male"
+    },
+    {
+      "id": "PAT-103",
+      "name": "Charu Rajesh",
+      "email": "Charu@gmail.com",
+      "phone": "555-0188",
+      "gender": "Female"
+    },
+    {
+      "id": "Or7VVyqcqfw",
+      "name": "Arnab Sharma ",
+      "email": "Arnab12@gmail.com",
+      "phone": "9998880004",
+      "gender": "Male"
+    }
+  ],
+  "appointments": [
+    {
+      "id": "APT-501",
+      "patientId": "PAT-101",
+      "doctorName": "Dr. Saraswati",
+      "appointmentDate": "2026-10-25",
+      "status": "Confirmed"
+    },
+    {
+      "id": "APT-502",
+      "patientId": null,
+      "doctorName": "Dr. Jashwant",
+      "appointmentDate": "2026-10-26",
+      "status": "Pending"
+    },
+    {
+      "id": "APT-503",
+      "patientId": "PAT-103",
+      "doctorName": "Dr. Saraswati",
+      "appointmentDate": "2026-10-27",
+      "status": "Completed"
+    },
+    {
+      "id": "HIR2sTzR9WE",
+      "patientId": "PAT-103",
+      "doctorName": "Dr. Jashwant",
+      "appointmentDate": "2026-11-25",
+      "status": "Pending"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
